@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos básicos para el body */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; /* Peso normal */
+  font-style: normal; /* Estilo normal */
+  line-height: 1.6; /* Espaciado adecuado entre líneas */
+  color: #333; /* Color de texto oscuro para buen contraste */
+  background-color: #f4f4f4; /* Color de fondo claro */
+  padding: 0;
+  margin: 0;
+  height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+  overflow-x: hidden; /* Evita el desplazamiento horizontal */
+  text-transform: capitalize;
+  color: #fff;
+}
+
+/* Estilos básicos para enlaces */
+a {
+  color: #007bff; /* Color de enlace principal */
+  text-decoration: none; /* Quitar subrayado por defecto */
+}
+
+a:hover {
+  text-decoration: underline; /* Subrayado en el estado hover para mejorar la accesibilidad */
+}
+
