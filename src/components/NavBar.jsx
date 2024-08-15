@@ -1,8 +1,19 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { useEffect } from "react";
-
+import SubNav from "./subNav";
 export const NavBar = () => {
-  const navbarRef = useRef(null)
+  const [disable, setDisable] = useState(false);
+  const navbarRef = useRef(null);
+
+  const handleDisable = () => {
+    setDisable(true)
+  };
+  const handlerDisableFalse = () => {
+    setDisable(false)
+  }
+
+
+  console.log(disable)
   useEffect(() => {
     let lastScroll = 0
     const handlerScroll = () => {
@@ -27,6 +38,7 @@ export const NavBar = () => {
     return () => window.removeEventListener("scroll", handlerScroll)
   },[])
   return (
+    <>
     <header ref={navbarRef} className="flex flex-row fixed top-0 w-screen justify-between h-14 px-10 text-white items-center transition-transform duration-200 ease-in-out">
       <div className="flex flex-grow basis-0">
         <svg
@@ -42,7 +54,7 @@ export const NavBar = () => {
       </div>
       <nav>
         <ul className="flex flex-row basis-0 text-sm font-medium capitalize [&>li]:tracking-wide text-center items-center [&>li]:px-[16px] [&>li]:py-[4px]">
-          <li>
+          <li className=" hover:bg-[##0000000d] rounded" onMouseEnter={handleDisable} >
             <button>Vehicles</button>
           </li>
           <li>
@@ -92,6 +104,10 @@ export const NavBar = () => {
         </ul>
       </nav>
     </header>
+    {disable && (<div onMouseLeave={handlerDisableFalse}>
+      <SubNav title={"vehicles"}/>
+    </div>)}
+    </>
   );
 };
 

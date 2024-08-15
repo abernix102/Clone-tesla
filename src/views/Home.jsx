@@ -22,6 +22,7 @@ export const Home = () => {
       </section>
       <SectionH backgroundClass={"bg-custom-bg-home6"} titleH={"Solar Panels"} subTitle={"Schedule a Virtual Consultation"}/>
       <SectionH backgroundClass={"bg-custom-bg-home7"} titleH={"Solar Roof"} subTitle={"Produce Clean Energy From Your Roof"}/>
+
         </>
     )
 }

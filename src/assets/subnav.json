@@ -1,0 +1,120 @@
+{
+    "subNav": {
+        "vehicles" : [
+        {
+            "vehiclesInfo": [
+                {
+                    "title": "Model S",
+                    "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-S.png",
+                    "subItems": [   
+                        {
+                            "title": "Learn",
+                            "link": "/vehicles/model-s/learn"
+                        },
+                        {
+                            "title": "Order",
+                            "link": "/vehicles/model-s/order"
+                        }
+                    ]
+                },
+                {
+                    "title": "Model 3",
+                    "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-3-Performance-LHD.png",
+                    "subItems": [
+                        {
+                            "title": "Learn",
+                            "link": "/vehicles/model-3/learn"
+                        },
+                        {
+                            "title": "Order",
+                            "link": "/vehicles/model-3/order"
+                        }
+                    ]
+                },
+                {
+                    "title": "Model X",
+                    "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-3-Performance-LHD.png",
+                    "subItems": [
+                        {
+                            "title": "Learn",
+                            "link": "/vehicles/model-x/learn"
+                        },
+                        {
+                            "title": "Order",
+                            "link": "/vehicles/model-x/order"
+                        }
+                    ]
+                },
+                {
+                    "title": "Model Y",
+                    "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-3-Performance-LHD.png",
+                    "subItems": [
+                        {
+                            "title": "Learn",
+                            "link": "/vehicles/model-y/learn"
+                        },
+                        {
+                            "title": "Order",
+                            "link": "/vehicles/model-y/order"
+                        }
+                    ]
+                },
+                {
+                    "title": "Cybertruck",
+                    "image": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-3-Performance-LHD.png",
+                    "subItems": [
+                        {
+                            "title": "Learn",
+                            "link": "/vehicles/cybertruck/learn"
+                        },
+                        {
+                            "title": "Order",
+                            "link": "/vehicles/cybertruck/order"
+                        }
+                    ]
+                }
+            ],
+            "sections": [
+                {
+                    "title": "Inventory",
+                    "link": "/inventory"
+                },
+                {
+                    "title": "Used Cars",
+                    "link": "/used-cars"
+                },
+                {
+                    "title": "Demo Drive",
+                    "link": "/demo-drive"
+                },
+                {
+                    "title": "Trade-in",
+                    "link": "/trade-in"
+                },
+                {
+                    "title": "Compare",
+                    "link": "/compare"
+                },
+                {
+                    "title": "Help Me Charge",
+                    "link": "/help-me-charge"
+                },
+                {
+                    "title": "Fleet",
+                    "subItems": [
+                        {
+                            "title": "Semi",
+                            "link": "/fleet/semi"
+                        },
+                        {
+                            "title": "Roadster",
+                            "link": "/fleet/roadster"
+                        }
+                    ]
+                }
+            ]
+        }
+        
+    ]
+    }
+}
